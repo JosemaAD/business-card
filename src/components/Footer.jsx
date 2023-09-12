@@ -4,8 +4,8 @@ import Github from '../assets/Github Icon.png'
 function Footer() {
       return (
         <div className="social">
-            <a className=""><img src={Twitter} /></a>
-            <a className=""><img src={Github} /></a>
+            <a className="" href='https://twitter.com/josemaAD'><img src={Twitter} /></a>
+            <a className="" href='https://github.com/JosemaAD'><img src={Github} /></a>
         </div>    
     )
   }
